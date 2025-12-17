@@ -28,7 +28,7 @@ const Header = () => {
               <img
                 src={logo}
                 alt="Videogames Then & Now logo"
-                class="site-logo"
+                className="h-12 w-auto"
               />
             </div>
           </Link>
