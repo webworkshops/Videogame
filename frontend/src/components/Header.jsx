@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
-import { Button } from './ui/button';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Menu, X, Phone } from "lucide-react";
+import { Button } from "./ui/button";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
 
   const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/inventory', label: 'Inventory' },
-    { path: '/reviews', label: 'Reviews' },
-    { path: '/contact', label: 'Visit Us' }
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/inventory", label: "Inventory" },
+    { path: "/reviews", label: "Reviews" },
+    { path: "/contact", label: "Visit Us" },
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -24,9 +24,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="text-2xl md:text-3xl font-black tracking-tight">
-              <span className="text-[#F4C430]">VIDEOGAMES</span>
-              <br className="md:hidden" />
-              <span className="text-[#F4C430] md:ml-2">Then & Now</span>
+              <img
+                src="/assets/img/logo.png"
+                alt="Videogames Then & Now logo"
+                class="site-logo"
+              />
             </div>
           </Link>
 
@@ -38,8 +40,8 @@ const Header = () => {
                 to={link.path}
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
-                    ? 'text-[#F4C430] bg-[#F4C430]/10'
-                    : 'text-gray-300 hover:text-[#F4C430] hover:bg-[#F4C430]/5'
+                    ? "text-[#F4C430] bg-[#F4C430]/10"
+                    : "text-gray-300 hover:text-[#F4C430] hover:bg-[#F4C430]/5"
                 }`}
               >
                 {link.label}
@@ -62,7 +64,11 @@ const Header = () => {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="md:hidden p-2 text-gray-300 hover:text-[#F4C430] transition-colors"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -77,8 +83,8 @@ const Header = () => {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`px-4 py-3 rounded-md text-sm font-medium transition-all duration-200 ${
                     isActive(link.path)
-                      ? 'text-[#F4C430] bg-[#F4C430]/10'
-                      : 'text-gray-300 hover:text-[#F4C430] hover:bg-[#F4C430]/5'
+                      ? "text-[#F4C430] bg-[#F4C430]/10"
+                      : "text-gray-300 hover:text-[#F4C430] hover:bg-[#F4C430]/5"
                   }`}
                 >
                   {link.label}
