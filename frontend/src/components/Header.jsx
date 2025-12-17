@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "./ui/button";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3">
             <div className="text-2xl md:text-3xl font-black tracking-tight">
               <img
-                src="frontend/img/logo.png"
+                src={logo}
                 alt="Videogames Then & Now logo"
                 class="site-logo"
               />
