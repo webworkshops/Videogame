@@ -25,7 +25,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3">
             <div className="text-2xl md:text-3xl font-black tracking-tight">
               <img
-                src="/assets/img/logo.png"
+                src="assets/img/logo.png"
                 alt="Videogames Then & Now logo"
                 class="site-logo"
               />
