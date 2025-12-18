@@ -28,7 +28,8 @@ const Header = () => {
               <img
                 src={logo}
                 alt="Videogames Then & Now logo"
-                className="h-24 w-auto"
+                className="h-32 w-auto"
+                style="margin-top:5%;"
               />
             </div>
           </Link>
