@@ -3,7 +3,7 @@
 export const businessInfo = {
   name: "Videogames Then & Now",
   phone: "(708) 867-5309",
-  email: "info@videogamesthennow.com",
+  email: "vgamesetc@gmail.com",
   address: {
     street: "4850 N Harlem Ave",
     city: "Harwood Heights",
@@ -20,9 +20,9 @@ export const businessInfo = {
     { day: "Saturday", hours: "11:00 AM - 9:00 PM" },
     { day: "Sunday", hours: "12:00 PM - 6:00 PM" }
   ],
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.9841928948686!2d-87.81268492348456!3d41.967824571216456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcc3f1e1e1e1f%3A0x1234567890abcdef!2s4850%20N%20Harlem%20Ave%2C%20Harwood%20Heights%2C%20IL%2060706!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
+  googleMapsEmbed: "https://maps.app.goo.gl/W3T34RXftfSER8y77",
   rating: 4.2,
-  reviewCount: "400+"
+  reviewCount: "430+"
 };
 
 export const categories = [
@@ -59,45 +59,45 @@ export const categories = [
 export const reviews = [
   {
     id: 1,
-    name: "Michael R.",
+    name: "K on Google Maps",
     rating: 5,
-    text: "Best retro game store in the Chicago area! Found a mint condition SNES cartridge I've been searching for. Staff is incredibly knowledgeable and friendly.",
-    date: "2 weeks ago"
+    text: "Dropped in with a friend to visit yesterday. Glad we did. Nice store with a good selection of games. The employee was friendly and I found a few games for my collection that were priced very reasonably. The boxed PC Games were especially cool. Easy recommendation.",
+    date: "4 months ago"
   },
   {
     id: 2,
-    name: "Sarah K.",
+    name: "Mr. Fco. Dominguez on Google Maps",
     rating: 5,
-    text: "Amazing selection of rare games. The prices are fair and the staff actually knows their stuff. This place is a treasure trove for collectors!",
-    date: "1 month ago"
+    text: "This place is the place to find what you're looking for. I'm was looking for some Xbox 360 wired n battery packs, walked up to the counter asked the best way I could describe the cables I needed n battery packs, honey behind the counter said 'yeah we got it' Boom! there I got it! Kudos to this spot",
+    date: "4 months ago"
   },
   {
     id: 3,
-    name: "David L.",
+    name: "Mandy on Google Maps",
     rating: 4,
-    text: "Great store with a solid selection of both retro and modern games. Found some Game Boy games in excellent condition. Will definitely be back.",
-    date: "3 weeks ago"
+    text: "We are visiting from Minnesota and we have been looking for Street fighter 30th anniversary edition for xbox one Literally Everywhere and they had it!!! Also treasured finds like Sega Saturn controller new in the box, Rare lugi and bowser wii remote, and Paper mario origami king for switch. Thank you. Thank you Mieshka",
+    date: "3 months ago"
   },
   {
     id: 4,
-    name: "Jennifer M.",
+    name: "Krystal on Google Maps",
     rating: 5,
-    text: "Stopped in while visiting Chicago and was blown away. The retro console section is incredible. Staff helped me find the perfect gift for my son.",
-    date: "2 months ago"
+    text: "They have EVERYTHING!! For the best prices!! Definitely a family friendly",
+    date: "1 year ago"
   },
   {
     id: 5,
-    name: "Robert T.",
+    name: "The Real Will Geronimo on Google Maps",
     rating: 4,
-    text: "Fantastic local game shop! They have things you won't find anywhere else. Fair trade-in values and competitive pricing.",
-    date: "1 month ago"
+    text: "Been coming here since 2019 and you’ll find some great stuff if you’re into retro gaming on original hardware. And he has Sega Saturns in stock!",
+    date: "5 months ago"
   },
   {
     id: 6,
-    name: "Lisa W.",
+    name: "Andrew on Google Maps",
     rating: 5,
-    text: "This store is a nostalgic paradise! Found games from my childhood that I thought were lost forever. The staff's passion for gaming really shows.",
-    date: "3 weeks ago"
+    text: "By far the best video game store I’ve ever been to and I’ve been to plenty. Every employee I ever deal with is super polite and very knowledgeable in all  types of different games and systems. Also, their prices can’t be beat.",
+    date: "1 year ago"
   }
 ];
 
