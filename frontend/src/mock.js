@@ -20,7 +20,7 @@ export const businessInfo = {
     { day: "Saturday", hours: "11:00 AM - 9:00 PM" },
     { day: "Sunday", hours: "12:00 PM - 6:00 PM" }
   ],
-  googleMapsEmbed: "https://maps.app.goo.gl/W3T34RXftfSER8y77",
+  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2966.9841928948686!2d-87.81268492348456!3d41.967824571216456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcc3f1e1e1e1f%3A0x1234567890abcdef!2s4850%20N%20Harlem%20Ave%2C%20Harwood%20Heights%2C%20IL%2060706!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
   rating: 4.2,
   reviewCount: "430+"
 };
