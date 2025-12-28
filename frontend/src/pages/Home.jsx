@@ -35,7 +35,9 @@ const Home = () => {
           </button>
 
           <button
-            onClick={() => navigate(www.frontroom.website)}
+            onClick={() => {
+              window.location.href = "https://www.frontroom.website";
+            }}
             className={`px-4 py-2 text-sm font-medium transition-all duration-300 bg-black text-[#00FFD1] `}
           >
             Home page
