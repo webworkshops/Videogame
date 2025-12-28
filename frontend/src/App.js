@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -13,7 +13,7 @@ import { Toaster } from "./components/ui/sonner";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <div className="flex flex-col min-h-screen bg-[#0f0f10]">
           <Header />
           <main className="flex-grow">
@@ -28,7 +28,7 @@ function App() {
           <Footer />
         </div>
         <Toaster />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
