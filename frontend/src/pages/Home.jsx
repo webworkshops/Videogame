@@ -24,16 +24,16 @@ const Home = () => {
             <br></br>Only 7 days before it gets removed.
           </p>
         </div>
-
-        <button
-          onClick={() => {
-            window.location.href = "mailto:hello@frontroom.website";
-          }}
-          className={`px-4 py-2 text-sm font-medium transition-all duration-300 bg-black text-[#00FFD1] `}
-        >
-          Message us
-        </button>
         <div className="flex gap-2">
+          <button
+            onClick={() => {
+              window.location.href = "mailto:hello@frontroom.website";
+            }}
+            className={`px-4 py-2 text-sm font-medium transition-all duration-300 bg-black text-[#00FFD1] `}
+          >
+            Message us
+          </button>
+
           <button
             onClick={() => navigate(www.frontroom.website)}
             className={`px-4 py-2 text-sm font-medium transition-all duration-300 bg-black text-[#00FFD1] `}
