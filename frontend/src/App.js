@@ -13,16 +13,16 @@ import { Toaster } from "./components/ui/sonner";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/videogames-ll8gea">
+      <BrowserRouter>
         <div className="flex flex-col min-h-screen bg-[#0f0f10]">
           <Header />
           <main className="flex-grow">
             <Routes>
-              <Route path="/*" element={<Home />} />
-              <Route path="about" element={<About />} />
-              <Route path="inventory" element={<Inventory />} />
-              <Route path="reviews" element={<Reviews />} />
-              <Route path="contact" element={<Contact />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/inventory" element={<Inventory />} />
+              <Route path="/reviews" element={<Reviews />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </main>
           <Footer />
