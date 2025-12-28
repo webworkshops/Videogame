@@ -18,7 +18,12 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Floating CTA */}
       <div className="fixed bottom-8 right-8 z-50 bg-[#00FFD1] text-black px-6 py-3 shadow-lg backdrop-blur-sm">
-        <div className="text-sm font-medium mb-2">Buy it now <b>for $97.50!</b></br>Only 7 days before it gets removed.</div>
+        <div className="text-sm font-medium mb-2">
+          <p>
+            Buy it now <b>for $97.50!</b>
+            <br></br>Only 7 days before it gets removed.
+          </p>
+        </div>
         <div className="flex gap-2">
           <button
             onClick={() => navigate("mailto:hello@frontroom.website")}
