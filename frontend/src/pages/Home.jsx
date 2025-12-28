@@ -25,11 +25,7 @@ const Home = () => {
         <div className="flex gap-2">
           <button
             onClick={() => navigate("/your-target-page")}
-            className={`px-4 py-2 text-sm font-medium transition-all duration-300 ${
-              heroVersion === "spline"
-                ? "bg-black text-[#00FFD1]"
-                : "bg-white bg-opacity-20 hover:bg-opacity-30"
-            }`}
+            className={`px-4 py-2 text-sm font-medium transition-all duration-300 bg-black text-[#00FFD1] `}
           >
             Go to cart
           </button>
