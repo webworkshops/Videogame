@@ -26,7 +26,9 @@ const Home = () => {
         </div>
         <div className="flex gap-2">
           <button
-            onClick={() => navigate("mailto:hello@frontroom.website")}
+            onClick={() => {
+              window.location.href = "mailto:hello@frontroom.website";
+            }}
             className={`px-4 py-2 text-sm font-medium transition-all duration-300 bg-black text-[#00FFD1] `}
           >
             Message us
