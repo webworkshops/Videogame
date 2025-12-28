@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "^/videogames-ll8gea/static/(.*)$",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "^/videogames-ll8gea/(.*)$",
+      "dest": "/index.html"
+    }
+  ]
+}
