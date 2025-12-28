@@ -16,26 +16,6 @@ import { businessInfo, categories, reviews, highlights } from "../mock";
 const Home = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero version selector - floating button for comparison */}
-      <div className="fixed bottom-8 right-8 z-50 bg-[#00FFD1] text-black px-6 py-3 shadow-lg backdrop-blur-sm">
-        <div className="text-sm font-medium mb-2">Buy it now for $97.50</div>
-        <div className="text-sm font-medium mb-2">
-          Only 7 days before it gets removed
-        </div>
-        <div className="flex gap-2">
-          <button
-            onClick={() => useNavigate("/your-target-page")}
-            className={`px-4 py-2 text-sm font-medium transition-all duration-300 ${
-              heroVersion === "spline"
-                ? "bg-black text-[#00FFD1]"
-                : "bg-white bg-opacity-20 hover:bg-opacity-30"
-            }`}
-          >
-            Go to cart
-          </button>
-        </div>
-      </div>
-
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-[#1a1a1b] via-[#242426] to-[#1a1a1b] py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
