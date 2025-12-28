@@ -13,7 +13,7 @@ import { Toaster } from "./components/ui/sonner";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/videogames-ll8gea">
         <div className="flex flex-col min-h-screen bg-[#0f0f10]">
           <Header />
           <main className="flex-grow">
